@@ -19,4 +19,5 @@
     <!--   <context:annotation-config />-->
     <bean id="studentsManage" class="com.yinrong.components.impl.StudentsManageImpl"></bean>
     <bean id="aspectBean" class="com.yinrong.aop.advice.StudentAdvice"></bean>
+
 </beans>
