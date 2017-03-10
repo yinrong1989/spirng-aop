@@ -12,12 +12,13 @@
            http://www.springframework.org/schema/aop/spring-aop.xsd
            "
        default-autowire="byName">
-<!--效果等同-->
+    <!--效果等同-->
     <aop:aspectj-autoproxy />
-<!--    <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator" />-->
+    <!--    <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator" />-->
 
-    <!--   <context:annotation-config />-->
+       <context:annotation-config />
     <bean id="studentsManage" class="com.yinrong.components.impl.StudentsManageImpl"></bean>
     <bean id="aspectBean" class="com.yinrong.aop.advice.StudentAdvice"></bean>
+    <bean id="yrLogAdvice" class="com.yinrong.aop.advice.YrLogAdvice"></bean>
 
 </beans>

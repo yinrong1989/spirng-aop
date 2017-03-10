@@ -21,10 +21,13 @@ public class AOPTest {
 
     @Test
     public void testUpdate() throws Exception {
-
-   //     StudentsManage studentsManage = (StudentsManage) context.getBean("studentsManage");
-        // studentMgr.saveOne("wuguowei");
         System.out.println("-----------");
         studentsManage.update("wuguowei");
+    }
+    @Test
+    public void testSave() throws Exception {
+        System.out.println("-----------");
+        studentsManage.save("1111");
+        studentsManage.save2("222");
     }
 }

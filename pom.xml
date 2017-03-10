@@ -52,17 +52,17 @@
 
       <artifactId>aspectjrt</artifactId>
 
-      <version>1.6.1</version>
+      <version>1.8.9</version>
 
     </dependency>
 
     <dependency>
 
-      <groupId>aspectj</groupId>
+      <groupId>org.aspectj</groupId>
 
       <artifactId>aspectjweaver</artifactId>
 
-      <version>1.5.3</version>
+      <version>1.8.9</version>
 
     </dependency>
     <dependency>

@@ -8,5 +8,6 @@ package com.yinrong.components;
  */
 public interface StudentsManage {
     public void save(String name) throws Exception;
+    public void save2(String name) throws Exception;
     public void update(String name)throws Exception;
 }
